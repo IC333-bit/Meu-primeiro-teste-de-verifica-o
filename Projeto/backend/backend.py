@@ -13,7 +13,7 @@ def enviar():
     if texto.lower() =='henrique' or texto.lower() == 'henrique':
         return f'Ola admin'
     else:
-        return f"Voce é gay"
+        return f"Errado"
 
 if __name__ == '__main__':
     app.run(debug=True)
